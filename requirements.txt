@@ -1,0 +1,10 @@
+backports.tarfile
+ffmpeg-python
+funasr
+importlib-metadata
+jaraco.collections
+pip-chill
+pydub
+tomli
+torchaudio
+torchvision
