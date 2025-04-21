@@ -21,6 +21,10 @@ PolyVocalis 是基于 FunASR 的智能语音分离系统，提供以下核心功
 git clone https://github.com/lb1169656535/PolyVocalis.git
 cd PolyVocalis
 
+# 创建环境
+conda create -n polyVocalis python=3.12
+# 激活环境（根据自己的环境名）
+conda activate polyVocalis
 # 安装依赖
 pip install -r requirements.txt
 
@@ -32,6 +36,10 @@ sudo apt install ffmpeg
 
 ```bash
 python download_model.py
+```
+### 音频格式转换为wav(如果需要)
+```bash
+python towav.py
 ```
 
 ### 使用示例
