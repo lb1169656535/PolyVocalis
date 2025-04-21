@@ -1,5 +1,6 @@
-<img align="right" src="https://count.getloli.com/@lb1169656535?name=lb1169656535&theme=capoo-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto">
 # PolyVocalis - 智能语音分离工具
+
+<img align="right" src="https://count.getloli.com/@lb1169656535?name=lb1169656535&theme=capoo-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto">
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
