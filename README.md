@@ -41,8 +41,14 @@ python download_model.py
 ```
 ### 音频格式转换为wav(如果需要)
 ```bash
+# 转换单个文件
 python towav.py
+# 转换一个文件夹里面所有文件
+python towavs.py
+# 将文件夹所有wav合并为一个wav文件   
+python merge_wav.py            
 ```
+
 
 ### 使用示例
 
@@ -50,8 +56,8 @@ python towav.py
 # 单文件处理
 python app.py -i input.m4a -o ./output --gpu 0
 
-# 批量处理目录
-python app.py -i ./audio_files/*.mp3 -o ./result -t 8
+# 批量处理目录(经测试不好使，还是得使用合并文件的方式)
+# python app.py -i ./audio_files/*.mp3 -o ./result -t 8
 ```
 
 ## 📂 项目结构
@@ -60,7 +66,9 @@ python app.py -i ./audio_files/*.mp3 -o ./result -t 8
 PolyVocalis/
 ├── app.py                 # 主程序
 ├── download_model.py      # 模型下载工具
-├── towav.py               # 音频格式转换工具
+├── towav.py               # 单个音频格式转换工具
+├── towavs.py              #一个文件夹内所有音频文件格式转换工具
+├── merge_wav.py           # 将文件夹所有wav合并为一个wav   
 ├── requirements.txt       # Python 依赖清单
 └── README.md
 ```

@@ -250,4 +250,12 @@ python app.py \
   --gpu 0
 
 
+python app.py \
+  -i /home/liub/project/data/merged_output.wav \
+  -o ./output \
+  -w 15 \
+  -t 4 \
+  --gpu 0
+
+
 '''
