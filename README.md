@@ -56,6 +56,8 @@ python merge_wav.py
 # 单文件处理
 python app.py -i input.m4a -o ./output --gpu 0
 
+# 多文件批量脚本（按需求修改脚本内容）
+./batch_process.sh
 # 批量处理目录(经测试不好使，还是得使用合并文件的方式)
 # python app.py -i ./audio_files/*.mp3 -o ./result -t 8
 ```
@@ -69,6 +71,7 @@ PolyVocalis/
 ├── towav.py               # 单个音频格式转换工具
 ├── towavs.py              #一个文件夹内所有音频文件格式转换工具
 ├── merge_wav.py           # 将文件夹所有wav合并为一个wav   
+├── batch_process.sh       # 批量执行python app.py 按需修改脚本内容
 ├── requirements.txt       # Python 依赖清单
 └── README.md
 ```

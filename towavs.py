@@ -66,8 +66,8 @@ def convert_audio_files(input_folder, output_folder):
 
 if __name__ == "__main__":
     # 配置参数
-    input_dir = "/home/liub/project/data/xjia"  # 输入文件夹
-    output_dir = "/home/liub/project/data/xjia_wav"  # 输出文件夹
+    input_dir = "/home/liub/project/data/xjia_last"  # 输入文件夹
+    output_dir = "/home/liub/project/data/xjia_last"  # 输出文件夹
 
     # 执行转换
     try:

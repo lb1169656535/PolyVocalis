@@ -60,8 +60,8 @@ def merge_wav_files(input_folder, output_file):
 
 if __name__ == "__main__":
     # 配置路径
-    input_dir = "/home/liub/project/data/xjia_wav"  # 已转换的WAV目录
-    output_file = "/home/liub/project/data/merged_output.wav"
+    input_dir = "/home/liub/project/data/xjia_last"  # 已转换的WAV目录
+    output_file = "/home/liub/project/data/xjia_last/all.wav"
     
     # 执行合并
     try:

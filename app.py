@@ -251,7 +251,7 @@ python app.py \
 
 
 python app.py \
-  -i /home/liub/project/data/merged_output.wav \
+  -i /home/liub/project/data/xjia_last/all.wav \
   -o ./output \
   -w 15 \
   -t 4 \
